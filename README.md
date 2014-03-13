@@ -7,7 +7,7 @@ default-user-agent
 
 ![logo](https://raw.github.com/fengmk2/default-user-agent/master/logo.png)
 
-default-user-agent desc
+Default user agent string for nodejs http request
 
 ## Install
 

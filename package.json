@@ -1,7 +1,7 @@
 {
   "name": "default-user-agent",
-  "version": "0.0.0",
-  "description": "default-user-agent",
+  "version": "0.0.1",
+  "description": "Default user agent string for nodejs http request",
   "main": "index.js",
   "scripts": {
     "test": "make test-all"
@@ -34,7 +34,7 @@
     "email": "fengmk2@gmail.com"
   },
   "keywords": [
-    "default-user-agent"
+    "user-agent", "ua", "useragent", "request", "http"
   ],
   "engines": {
     "node": ">= 0.10.0"
