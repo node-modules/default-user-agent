@@ -21,11 +21,11 @@ $ npm install default-user-agent
 var ua = require('default-user-agent');
 
 // darwin
-console.log(ua()); // 'node/v0.11.11 (darwin 13.1.0; x64)'
-console.log(ua('urllib', '0.0.1')); // 'urllib/0.0.1 node/v0.11.11 (darwin 13.1.0; x64)'
+console.log(ua()); // 'Node.js/0.11.15 (OS X Yosemite; x64)'
+console.log(ua('urllib', '0.0.1')); // 'urllib/0.0.1 Node.js/0.11.15 (OS X Yosemite; x64)'
 
 // linux
-// 'node/v0.11.11 (linux 3.11.0-12-generic; x64)'
+// 'Node.js/0.11.15 (Linux 3.13; x64)'
 ```
 
 ## License
