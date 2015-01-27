@@ -6,13 +6,8 @@
   "scripts": {
     "test": "make test-all"
   },
-  "config": {
-    "cov": {
-      "threshold": 100
-    }
-  },
   "dependencies": {
-
+    "os-name": "~1.0.3"
   },
   "devDependencies": {
     "autod": "*",
@@ -23,22 +18,26 @@
     "istanbul": "*",
     "mocha": "*"
   },
-  "homepage": "https://github.com/fengmk2/default-user-agent",
+  "homepage": "https://github.com/node-modules/default-user-agent",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fengmk2/default-user-agent.git",
-    "web": "https://github.com/fengmk2/default-user-agent"
+    "url": "git://github.com/node-modules/default-user-agent.git",
+    "web": "https://github.com/node-modules/default-user-agent"
   },
   "bugs": {
-    "url": "https://github.com/fengmk2/default-user-agent/issues",
+    "url": "https://github.com/node-modules/default-user-agent/issues",
     "email": "fengmk2@gmail.com"
   },
   "keywords": [
-    "user-agent", "ua", "useragent", "request", "http"
+    "user-agent",
+    "ua",
+    "useragent",
+    "request",
+    "http"
   ],
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.com)",
   "license": "MIT"
 }

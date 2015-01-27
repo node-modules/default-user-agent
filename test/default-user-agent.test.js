@@ -22,15 +22,15 @@ describe('default-user-agent.test.js', function () {
     var s = ua();
     s.should.be.a.String;
     s.should.match(/\w+\/\w+/);
-    // 'node/v0.11.11 (darwin 13.1.0; x64)'
-    s.should.match(/^node\/v\d\.\d+\.\d+ \(\w+ .+; \w+\)$/);
+    // 'Node.js/0.11.15 (OS X Yosemite; x64)'
+    s.should.match(/^Node\.js\/\d\.\d+\.\d+ \(\w+ .+; \w+\)$/);
   });
 
   it('should got custom user agent string', function () {
     var s = ua('urllib', '0.1.1');
     s.should.be.a.String;
     s.should.match(/\w+\/\w+/);
-    // 'node/v0.11.11 (darwin 13.1.0; x64)'
-    s.should.match(/^urllib\/0\.1\.1 node\/v\d\.\d+\.\d+ \(\w+ .+; \w+\)$/);
+    // 'Node.js/0.11.15 (OS X Yosemite; x64)'
+    s.should.match(/^urllib\/0\.1\.1 Node\.js\/\d\.\d+\.\d+ \(\w+ .+; \w+\)$/);
   });
 });

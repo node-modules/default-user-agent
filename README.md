@@ -1,11 +1,11 @@
 default-user-agent
 =======
 
-[![Build Status](https://secure.travis-ci.org/fengmk2/default-user-agent.png)](http://travis-ci.org/fengmk2/default-user-agent) [![Dependency Status](https://gemnasium.com/fengmk2/default-user-agent.png)](https://gemnasium.com/fengmk2/default-user-agent)
+[![Build Status](https://secure.travis-ci.org/fengmk2/default-user-agent.png)](http://travis-ci.org/node-modules/default-user-agent) [![Dependency Status](https://gemnasium.com/fengmk2/default-user-agent.png)](https://gemnasium.com/node-modules/default-user-agent)
 
 [![NPM](https://nodei.co/npm/default-user-agent.png?downloads=true&stars=true)](https://nodei.co/npm/default-user-agent/)
 
-![logo](https://raw.github.com/fengmk2/default-user-agent/master/logo.png)
+![logo](https://raw.github.com/node-modules/default-user-agent/master/logo.png)
 
 Default user agent string for nodejs http request
 
@@ -21,11 +21,11 @@ $ npm install default-user-agent
 var ua = require('default-user-agent');
 
 // darwin
-console.log(ua()); // 'node/v0.11.11 (darwin 13.1.0; x64)'
-console.log(ua('urllib', '0.0.1')); // 'urllib/0.0.1 node/v0.11.11 (darwin 13.1.0; x64)'
+console.log(ua()); // 'Node.js/0.11.15 (OS X Yosemite; x64)'
+console.log(ua('urllib', '0.0.1')); // 'urllib/0.0.1 Node.js/0.11.15 (OS X Yosemite; x64)'
 
 // linux
-// 'node/v0.11.11 (linux 3.11.0-12-generic; x64)'
+// 'Node.js/0.11.15 (Linux 3.13; x64)'
 ```
 
 ## License

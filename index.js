@@ -14,11 +14,10 @@
  * Module dependencies.
  */
 
-var os = require('os');
+var osName = require('os-name');
 
-var USER_AGENT = 'node/' + process.version
-  + ' (' + process.platform + ' ' + os.release()
-  + '; ' + process.arch + ')';
+var USER_AGENT = 'Node.js/' + process.version.slice(1)
+  + ' (' + osName() + '; ' + process.arch + ')';
 
 module.exports = function ua(name, version) {
   if (arguments.length !== 2) {
