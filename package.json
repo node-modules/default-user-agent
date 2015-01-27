@@ -12,7 +12,7 @@
     }
   },
   "dependencies": {
-
+    "os-name": "*"
   },
   "devDependencies": {
     "autod": "*",
