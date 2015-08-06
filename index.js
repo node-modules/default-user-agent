@@ -1,7 +1,7 @@
 /**!
  * default-user-agent - index.js
  *
- * Copyright(c) fengmk2 and other contributors.
+ * Copyright(c) node-modules and other contributors.
  * MIT Licensed
  *
  * Authors:
