@@ -1,13 +1,27 @@
 default-user-agent
 =======
 
-[![Build Status](https://secure.travis-ci.org/fengmk2/default-user-agent.png)](http://travis-ci.org/node-modules/default-user-agent) [![Dependency Status](https://gemnasium.com/fengmk2/default-user-agent.png)](https://gemnasium.com/node-modules/default-user-agent)
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+[![Gittip][gittip-image]][gittip-url]
+[![David deps][david-image]][david-url]
+[![npm download][download-image]][download-url]
 
-[![NPM](https://nodei.co/npm/default-user-agent.png?downloads=true&stars=true)](https://nodei.co/npm/default-user-agent/)
+[npm-image]: https://img.shields.io/npm/v/default-user-agent.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/default-user-agent
+[travis-image]: https://img.shields.io/travis/node-modules/default-user-agent.svg?style=flat-square
+[travis-url]: https://travis-ci.org/node-modules/default-user-agent
+[coveralls-image]: https://img.shields.io/coveralls/node-modules/default-user-agent.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/node-modules/default-user-agent?branch=master
+[gittip-image]: https://img.shields.io/gittip/fengmk2.svg?style=flat-square
+[gittip-url]: https://www.gittip.com/fengmk2/
+[david-image]: https://img.shields.io/david/node-modules/default-user-agent.svg?style=flat-square
+[david-url]: https://david-dm.org/node-modules/default-user-agent
+[download-image]: https://img.shields.io/npm/dm/default-user-agent.svg?style=flat-square
+[download-url]: https://npmjs.org/package/default-user-agent
 
-![logo](https://raw.github.com/node-modules/default-user-agent/master/logo.png)
-
-Default user agent string for nodejs http request
+Default user agent string for Node.js http request
 
 ## Install
 
@@ -30,25 +44,4 @@ console.log(ua('urllib', '0.0.1')); // 'urllib/0.0.1 Node.js/0.11.15 (OS X Yosem
 
 ## License
 
-(The MIT License)
-
-Copyright (c) 2014 fengmk2 &lt;fengmk2@gmail.com&gt; and other contributors
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[MIT](LICENSE.txt)
