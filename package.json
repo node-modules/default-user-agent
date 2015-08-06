@@ -1,6 +1,6 @@
 {
   "name": "default-user-agent",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Default user agent string for nodejs http request",
   "main": "index.js",
   "files": [
