@@ -21,7 +21,7 @@
     "autod": "*",
     "eslint": "1",
     "istanbul": "*",
-    "mocha": "*"
+    "mocha": "3"
   },
   "homepage": "https://github.com/node-modules/default-user-agent",
   "repository": {
