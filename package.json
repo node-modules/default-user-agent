@@ -15,7 +15,7 @@
     "cnpm": "npm install --registry=https://registry.npmmirror.com"
   },
   "dependencies": {
-    "os-name": "~1.0.3"
+    "os-name": "~3.0.0"
   },
   "devDependencies": {
     "autod": "*",
